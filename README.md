@@ -49,6 +49,12 @@ pip install jupyter
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 ```
 
+## Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** - Step-by-step guide to get started quickly
+- **[Notebook Documentation](NOTEBOOKS.md)** - Detailed information about each Jupyter notebook
+- **This README** - Complete project overview and reference
+
 ## Quick Start
 
 ### Training
