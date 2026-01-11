@@ -2,6 +2,24 @@
 
 DC-Net is a deep learning framework for downward continuation of gravity field data. This project implements an encoder-decoder architecture with adversarial training to accurately predict gravity anomalies at different altitudes.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Architecture](#architecture)
+- [Installation](#installation)
+- [Documentation](#documentation)
+- [Quick Start](#quick-start)
+- [Jupyter Notebooks](#jupyter-notebooks)
+- [Project Structure](#project-structure)
+- [Model Checkpoints](#model-checkpoints)
+- [Data Format](#data-format)
+- [Training Data Generation](#training-data-generation)
+- [GPU Acceleration](#gpu-acceleration)
+- [Citation](#citation)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Overview
 
 Downward continuation is a crucial technique in geophysics for transforming potential field data (such as gravity measurements) from one observation level to another at a lower altitude. This process is mathematically unstable and amplifies noise, making it challenging with traditional methods. DC-Net addresses these challenges using deep learning.
@@ -53,6 +71,7 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 - **[Quick Start Guide](QUICKSTART.md)** - Step-by-step guide to get started quickly
 - **[Notebook Documentation](NOTEBOOKS.md)** - Detailed information about each Jupyter notebook
+- **[Translation Reference](TRANSLATION.md)** - Mapping between Chinese and English notebook names
 - **This README** - Complete project overview and reference
 
 ## Quick Start
